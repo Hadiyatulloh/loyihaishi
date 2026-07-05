@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.index2{
+   width: 500px;
+    height: 334px;
+
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.box2 div{
+    width: 464px;
+}
+.box2 div h1{
+    width: 390px;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.coin{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: 1;
+    right: 580px;
+    top: 70px;
+    transform: rotate(-45deg);
+
+}
+.box2 div p{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.box2 button{
+    width: 173px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    background-color: rgba(10, 119, 95, 1);
+    color: white;
+    
+}
+section{
+    margin-top: 120px;
+}
+.about_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about_box div{
+    width: 500px;  
+}
+.about_box div h2{
+    font-size: 40px;
+}
+.about_box div p{
+    margin-top: 50px;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.about2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about2 div{
+    color: white;
+    width: 500px;
+}
+.about2 p{
+    margin-top: 40px;
+}
+.about2 h2{
+    font-size: 35px;
+}
+.section{
+    background-color: rgba(201, 155, 103, 1);
+    height: 400px;
+    display: flex;
+    
+}
+
+.about2 img{
+    height: 65vh;
+    position: relative;
+    bottom: 100px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(243, 215, 183, 1);
+    padding: 15px;
+}
+.images{
+    width: 100px;
+    display: flex;
+    gap: 20px;
+}
